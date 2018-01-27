@@ -127,11 +127,11 @@ public class Backtester {
 	
 						if (p.getExpReturn() > 0) {
 							longPosition(resulting);
-							updatePattern(cTableA,resulting);
+							//updatePattern(cTableA,resulting);
 	
 						} else {
 							shortPosition(resulting);
-							updatePattern(cTableA,resulting);
+							//updatePattern(cTableA,resulting);
 						}
 					}
 					else {
